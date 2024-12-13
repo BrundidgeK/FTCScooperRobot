@@ -17,7 +17,7 @@ public class MainTele extends LinearOpMode {
             }
             else if (gamepad1.b) {
                 arm.setServos(new double[]{0.75, 0, -0.25});
-                arm.setServos(new double[]{0.5, 0, 0});
+                arm.setServos(new double[]{0.5, 0, -0.25});
             }
 
         }
