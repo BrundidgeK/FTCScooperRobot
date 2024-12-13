@@ -21,7 +21,7 @@ public class MainTele extends LinearOpMode {
                 sleep(250);
                 arm.setServos(new double[]{0.5, 0, 0.5});
                 sleep(250);
-                arm.setServos(new double[]{1, 0, 1});
+                arm.setServos(new double[]{1, 0, 0.75});
             }
 
         }
